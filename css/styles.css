@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+@font-face {
+    font-family: SegoeUIBlack;
+    src: url('../fonts/SegoeUI-BoldItalic.ttf');
+    src: url('../fonts/SegoeUI-BoldItalic.eot');
+    src: url('../fonts/SegoeUI-BoldItalic.woff');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+#main-header {
+    background-color: #2ecc71;
+    height: 100px;/*погана практика задавати висоту*/
+}
+#home {
+    background-color: #2ecc71;
+}
+
+#home .wrapper {
+    height: 800px;
+    background: url('../images/app_icon.png') no-repeat left 0 top 130px , 
+                url('../images/img_mobile_home.png') no-repeat right bottom;
+}
+
+#calorie-counter {
+    background-color: #fff;
+}
+
+#calorie-counter .wrapper {
+    height: 900px;
+    background: url('../images/img_statistics.png') no-repeat left;
+}
+
+#diet {
+    background-color: #f9f9f9;
+}
+
+#diet .wrapper {
+    height: 900px;
+    background: url('../images/img_diet.png') no-repeat center bottom; 
+                
+}
+
+#meal-time {
+    height: 700px;
+    background-color: #fff;
+}
+
+#download {
+    height: 440px;
+    background-color: #2ecc71;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#main-header .logo {
+    font: bold 38px SegoeUIBlack;
+    color: #fff;
+    padding: 15px 15px;
+    display: block;
+    float: left;
+    text-decoration: none;
+}
+
+#main-header h1 {
+    margin: 0;
+}
+
+nav {
+    list-style: none;
+    float: right;
+}
+
+#main-header nav li {
+    float: left;
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#main-header li a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    line-height: 100px;
+    display: block;
+}
+
+#main-header li .main-menu-button { 
+    font-weight: 700;
+    color: #2ecc71;
+    line-height: normal;
+    padding: 15px 35px;
+    margin-top: 25px;
+    background: #fff;
+    border-radius: 80px;
+}
+
+.download-container {
+    margin: 0 auto;
+    font-family: 'Roboto';
+    font-weight: 300;
+    text-align: center;
+    padding-top: 115px;
+    color: #fff;
+    white-space: normal;
+    width: 75%;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 48px;
+}
+
+.download-container p {
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.download-button {
+    margin-top: 50px;
+}
+
+.download-button a {
+    font: bold 18px 'Roboto';
+    color: #2ecc71;
+    background: #fff;
+    padding: 15px 95px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.description-statistics {
+    color: #5a5a5a;
+    white-space: normal;
+    width: 45%;
+    float: right;
+    margin-top: 365px;
+}
+
+.green-text {
+    color: #2ecc71;
+}
+
+.diet-description {
+    color: #5a5a5a;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    white-space: normal;
+    width: 70%;
+}
+
+ p {
+    font: 300 18px 'Roboto';
+    padding-top: 15px;
+    line-height: 40px;
+    
+}
+
+
+.meal-time-description {
+    white-space: normal;
+    width: 45%;
+    float: left;
+    color: #5a5a5a;
+    margin-top: 200px;
+}
+
+.meal-list-container {
+    float: right;
+    margin-top: 200px;
+    margin-right: 100px;
+}
+
+.meal-list {
+    list-style: none;
+    float: left;
+}
+
+.meal-list li {
+    padding-bottom: 30px;
+}
+
+.meal-description {
+    list-style: none;
+    float: right;;;
+}
+
+h2 {
+    font: 700 15px 'Roboto';
+    color: #2ecc71;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.meal-description li {
+    font-family: 'Roboto';
+    padding-bottom: 10px;
+}
+
+.calories {
+    font-weight: 700;
+    color: #2ecc71;
+    font-size: 12px;
+}
+
+.item-descrip {
+    font-weight: 300;
+}
+
+.apple-container, .sandwich-container, .salad-container {
+    float: left;
+}
+
+.time {
+    float: left;
+    padding-left: 60px;
+}
+
+.time p {
+    margin: 0;
+    text-align: right;
+}
+
+.item-descrip {
+    font-size: 12px;
+}
+
+.sandwich-header {
+    font-size: 20px;
+}
+
+.sandwich-descrip {
+    font: 300 15px 'Roboto';
+}
+
+.sandwich-calories {
+    font-weight: 700;
+    color: #2ecc71;
+    font-size: 15px;
+}
+
+.sandwich-time-green {
+    font-size: 31px;
+    font-weight: 700;
+    color: #2ecc71;
+}
+
+.salad-time-green {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2ecc71;
+}
+
+.sandwich-gray-time {
+    color: #b4b4b4;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.gray-time {
+    color: #b4b4b4;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.gray-time-pm {
+    padding: 0;
+    color: #b4b4b4;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+ .home-description {
+    position: absolute;
+    white-space: normal;
+    width: 35%;
+    float: left;
+    margin-top: 300px;
+    padding-right: 100px;
+
+}
+
+.home-description-text {
+    float: left;
+}
+
+.home-header h1 {
+    font-weight: 300;
+    font-size: 64px;
+    color: #fff;
+}
+
+.home-header .bold-text {
+    font-weight: 700;
+}
+
+.home-description-text p {
+    font-weight: 300;
+    color: #fff;
+    font-size: 18px;
+}
+
+.home-download-buttons a img {
+    margin-top: 60px;
+    padding-right: 25px;
+}
+
+.gray-dot{
+    color: #b4b4b4;
+}
